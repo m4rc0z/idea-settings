@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="KillNodes" description="Kill nodes" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="taskkill" />
+      <option name="PARAMETERS" value="/f /im node.exe" />
+      <option name="WORKING_DIRECTORY" value="C:/" />
+    </exec>
+  </tool>
+</toolSet>

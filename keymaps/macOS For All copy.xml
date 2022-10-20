@@ -1,0 +1,6 @@
+<keymap version="1" name="macOS For All copy" parent="macOS For All">
+  <action id="EditorMatchBrace" />
+  <action id="QuickList.Custom">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+</keymap>
