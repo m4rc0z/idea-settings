@@ -1,6 +1,45 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+  </action>
   <action id="EditorMatchBrace" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="shift ctrl #10000e9" />
+  </action>
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
   <action id="QuickList.Custom">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
 </keymap>
